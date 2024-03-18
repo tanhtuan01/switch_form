@@ -10,7 +10,6 @@ function changeStatus() {
     document.querySelector(".wb").classList.toggle('hidden')
     document.querySelector(".si").classList.toggle('hidden')
     document.querySelector(".box-right .right-content").classList.toggle('bcr')
-    // document.querySelector(".box-right .right-content").classList.toggle('hidden')
     document.querySelector(".box-left .left-content").classList.toggle('bcl')
 
     if (buttonAmt % 2 != 0) {
@@ -18,7 +17,6 @@ function changeStatus() {
         document.querySelector(".slide").classList.remove("slide-to-right")
         setTimeout(() => {
             document.querySelector(".box-right .right-content").style.animation = 'textFromRight 0.5s linear forwards'
-
         }, 200)
 
 
